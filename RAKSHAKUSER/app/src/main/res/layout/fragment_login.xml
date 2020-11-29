@@ -1,0 +1,55 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.save.rakshak.rakshakuser.RegisterFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/login_footer"
+
+        >
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LAadhar"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:hint="Aaadhar Number"
+            android:maxLength="50"
+            android:layout_marginBottom="5dp"
+            android:inputType="number"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Lpassword"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:hint="Enter Password"
+            android:maxLength="15"
+            android:layout_marginBottom="5dp"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+

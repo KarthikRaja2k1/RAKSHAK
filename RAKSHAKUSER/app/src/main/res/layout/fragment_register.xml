@@ -1,0 +1,133 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.save.rakshak.rakshakuser.RegisterFragment"
+android:orientation="vertical">
+
+<!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_above="@+id/ll_register_footer"
+
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_name"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:hint="Name/Username"
+        android:maxLength="35"
+        android:layout_marginBottom="3dp"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_Aadhar"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:hint="Aaadhar Number"
+        android:maxLength="50"
+        android:layout_marginBottom="3dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_email"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:hint="EmailAddress"
+        android:maxLength="50"
+        android:layout_marginBottom="3dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/et_email_ver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:hint="EmailAddress verify"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:textAlignment="center"
+        android:textSize="10sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_password"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:hint="Enter Password"
+        android:maxLength="15"
+        android:layout_marginBottom="3dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_password_ver"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:hint="Re-enter Password"
+        android:maxLength="15"
+        android:layout_marginBottom="3dp"
+        android:inputType="textPassword"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ll_register_footer"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account ?   "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_gota_login"
+            android:textColor="#0000CE"
+            android:text="CLICK HERE!!!!!"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="10sp" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        ></LinearLayout>
+
+
+
+</LinearLayout>
